@@ -28,3 +28,12 @@ void bispoMovimentoAninhado(int movimentoVertical, int movimentoHorizontal) {
         printf("\n");
     }
 }
+
+// Função recursiva movimento da Rainha
+
+void rainhaMovimento(int movimento) {
+    if (movimento > 0) {
+        printf("Esquerda\n");
+        rainhaMovimento(movimento - 1);
+    }
+}
