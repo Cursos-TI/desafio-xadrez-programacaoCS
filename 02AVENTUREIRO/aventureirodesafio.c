@@ -21,3 +21,13 @@ int main() {
         printf("Cima, Direita \n");
         i++;
     }
+
+    // Implementação de Movimento da Rainha
+
+    printf("\nMovimentação da Rainha: \n");
+    int rainhaMovimento = 8;
+    int j = 0;
+    do {
+        printf("Esquerda \n");
+        j++;
+    } while (j < rainhaMovimento);
