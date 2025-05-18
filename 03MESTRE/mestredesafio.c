@@ -63,3 +63,15 @@ int main() {
     printf("\nMovimentação da Rainha:\n");
     int rainhaMovimentoTotal = 8;
     rainhaMovimento(rainhaMovimentoTotal);
+
+    // Implementação de Movimentação do Cavalo
+
+    printf("\n\nMovimentação do Cavalo:\n");
+    int cavaloMovimentoVertical = 2;
+    int cavaloMovimentoHorizontal = 1;
+    for (int i = 0; i < cavaloMovimentoVertical; i++) {
+        printf("Cima\n");
+    }
+    for (int i = 0; i < cavaloMovimentoHorizontal; i++) {
+        printf("Direita\n");
+    }
