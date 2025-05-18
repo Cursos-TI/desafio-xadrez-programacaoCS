@@ -32,4 +32,6 @@ int main() {
          j++;
     } while (j < rainhaMovimento);
 
+return 0;
+    
 }
