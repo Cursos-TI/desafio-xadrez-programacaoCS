@@ -37,3 +37,13 @@ void rainhaMovimento(int movimento) {
         rainhaMovimento(movimento - 1);
     }
 }
+
+int main() {
+
+    printf("DESAFIO XADREZ - MESTRE! \n");
+
+    // Implementação de Movimento da Torre
+
+    printf("Movimentação da Torre:\n");
+    int torreMovimentoTotal = 5;
+    torreMovimento(torreMovimentoTotal);
