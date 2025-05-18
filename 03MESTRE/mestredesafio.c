@@ -8,3 +8,12 @@ void torreMovimento(int movimento) {
         torreMovimento(movimento - 1);
     }
 }
+
+// Função recursiva para simular o movimento do Bispo
+
+void bispoMovimento(int movimento) {
+    if (movimento > 0) {
+        printf("Cima, Direita\n");
+        bispoMovimento(movimento - 1);
+    }
+}
