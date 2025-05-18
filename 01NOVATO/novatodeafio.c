@@ -31,3 +31,5 @@ int main() {
          printf("Esquerda \n");
          j++;
     } while (j < rainhaMovimento);
+
+}
